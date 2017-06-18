@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">YourCAR</string>
+    <string name="history">History</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="service">Service</string>
+    <string name="road_safety">Road Safety</string>
+    <string name="fuel">Fuel</string>
+    <string name="model_activity_label">Model</string>
+    <string name="history_activity_label">History</string>
+    <string name="service_activity_label">Service</string>
+    <string name="road_safety_activity_label">Road Safety</string>
+    <string name="brand_activity_label">Quiz</string>
+    <string name="results_activity_label">Answers</string>
+</resources>
