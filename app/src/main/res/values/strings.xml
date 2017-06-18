@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YourCAR</string>
+    <string name="results_activity_label">Answers</string>
+    <string name="quiz_activity_label">Quiz</string>
+    <string name="logo_one_label">Logo 1</string>
+    <string name="logo_two_label">Logo 2</string>
+    <string name="logo_three_label">Logo 3</string>
+    <string name="logo_four_label">Logo 4</string>
+    <string name="logo_five_label">Logo 5</string>
+</resources>

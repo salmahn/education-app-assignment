@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.bootcamp.salmah.yourcar.QuizActivity">
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="Below are various car logos, what make does each represent?"/>
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_one_label"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/audi" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/audi_make_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Make "
+        />
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="Select the corresponding model:" />
+
+    <RadioGroup
+        android:id="@+id/audi_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/audi_rs6"
+            style="@style/ActivityLabelStyle"
+            android:inputType=""
+            android:text="RS6"/>
+
+        <RadioButton
+            android:id="@+id/audi_slr"
+            style="@style/ActivityLabelStyle"
+            android:text="SLR McLaren"/>
+
+        <RadioButton
+            android:id="@+id/audi_nissan"
+            style="@style/ActivityLabelStyle"
+            android:text="Nissan"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="State the country of origin." />
+
+    <EditText
+        android:id="@+id/audi_country_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Country"/>
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_two_label"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/benz"/>
+
+    <EditText
+        android:id="@+id/benz_make_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Make " />
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="Select the corresponding model:" />
+
+    <RadioGroup
+        android:id="@+id/benz_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/benz_prado"
+            style="@style/ActivityLabelStyle"
+            android:text="Prado" />
+
+        <RadioButton
+            android:id="@+id/benz_sl300"
+            style="@style/ActivityLabelStyle"
+            android:text="300SL"/>
+
+        <RadioButton
+            android:id="@+id/benz_phantom"
+            style="@style/ActivityLabelStyle"
+            android:text="Phantom"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="State the country of origin."/>
+
+    <EditText
+        android:id="@+id/benz_country_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Country" />
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_three_label"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/chevrolet"/>
+
+    <EditText
+        android:id="@+id/chevrolet_make_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Make" />
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="Select the corresponding model:"/>
+
+    <RadioGroup
+        android:id="@+id/chevrolet_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/chevrolet_r8"
+            style="@style/ActivityLabelStyle"
+            android:text="R8"/>
+
+        <RadioButton
+            android:id="@+id/chevrolet_s5"
+            style="@style/ActivityLabelStyle"
+            android:text="S5"/>
+
+        <RadioButton
+            android:id="@+id/chevrolet_tahoe"
+            style="@style/ActivityLabelStyle"
+            android:text="Tahoe"/>
+    </RadioGroup>
+
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="What is the country of origin?" />
+
+    <EditText
+        android:id="@+id/chevrolet_country_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Country: " />
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_four_label"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/jaguar"/>
+
+    <EditText
+        android:id="@+id/jaguar_make_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Make" />
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="Select the corresponding model:"/>
+
+    <RadioGroup
+        android:id="@+id/jaguar_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/jaguar_stingray"
+            style="@style/ActivityLabelStyle"
+            android:text="Stingray"/>
+
+        <RadioButton
+            android:id="@+id/jaguar_xk"
+            style="@style/ActivityLabelStyle"
+            android:text="XK"/>
+
+        <RadioButton
+            android:id="@+id/jaguar_volt"
+            style="@style/ActivityLabelStyle"
+            android:text="Volt"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="State the country of origin."/>
+
+    <EditText
+        android:id="@+id/jaguar_country_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Country" />
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_five_label"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/rollsroyce"/>
+
+    <EditText
+        android:id="@+id/rollsroyce_make_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Make" />
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="Select the corresponding model:" />
+
+    <RadioGroup
+        android:id="@+id/rollsroyce_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rollsroyce_camaro"
+            style="@style/ActivityLabelStyle"
+            android:text="Camaro"/>
+
+        <RadioButton
+            android:id="@+id/rollsroyce_silvershadow"
+            style="@style/ActivityLabelStyle"
+            android:text="Silver Shadow"/>
+
+        <RadioButton
+            android:id="@+id/rollsroyce_phantom"
+            style="@style/ActivityLabelStyle"
+            android:text="Phantom"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="What is the country of origin?"/>
+
+    <EditText
+        android:id="@+id/rollsroyce_country_et"
+        style="@style/EditTextViewStyle"
+        android:hint="Country" />
+
+
+    <Button
+        android:id="@+id/submit_audi_button"
+        style="@style/ButtonLabelStyle"
+        android:onClick="submitAnswers"
+        android:text="Submit"
+        android:textAllCaps="true"/>
+
+
+</LinearLayout>
+
+</ScrollView>

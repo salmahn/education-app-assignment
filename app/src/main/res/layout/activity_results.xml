@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:divider="@android:color/black"
+    android:dividerHeight="10.0sp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.bootcamp.salmah.yourcar.ResultsActivity">
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_one_label"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/audi" />
+
+    <TextView
+        android:id="@+id/make_audi_textview"
+        style="@style/ActivityLabelStyle"
+        android:textAlignment="gravity" />
+
+    <TextView
+        android:id="@+id/model_audi_textview"
+        style="@style/ActivityLabelStyle" />
+
+    <TextView
+        android:id="@+id/country_audi_textview"
+        style="@style/ActivityLabelStyle"/>
+
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_two_label"
+        android:textAlignment="gravity"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/benz"/>
+
+    <TextView
+        android:id="@+id/make_benz_textview"
+        style="@style/ActivityLabelStyle"
+        android:textAlignment="gravity" />
+
+    <TextView
+        android:id="@+id/model_benz_textview"
+        style="@style/ActivityLabelStyle" />
+
+    <TextView
+        android:id="@+id/country_benz_textview"
+        style="@style/ActivityLabelStyle" />
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_three_label"
+        android:textAlignment="gravity"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/chevrolet"/>
+
+    <TextView
+        android:id="@+id/make_chevrolet_textview"
+        style="@style/ActivityLabelStyle"
+        android:textAlignment="gravity" />
+
+    <TextView
+        android:id="@+id/model_chevrolet_textview"
+        style="@style/ActivityLabelStyle" />
+
+    <TextView
+        android:id="@+id/country_chevrolet_textview"
+        style="@style/ActivityLabelStyle"/>
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_four_label"
+        android:textAlignment="gravity"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/jaguar"/>
+
+    <TextView
+        android:id="@+id/make_jaguar_textview"
+        style="@style/ActivityLabelStyle"
+        android:textAlignment="gravity" />
+
+    <TextView
+        android:id="@+id/model_jaguar_textview"
+        style="@style/ActivityLabelStyle" />
+
+    <TextView
+        android:id="@+id/country_jaguar_textview"
+        style="@style/ActivityLabelStyle"/>
+
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/logo_five_label"
+        android:textAlignment="gravity"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:src="@drawable/rollsroyce"/>
+
+    <TextView
+        android:id="@+id/make_rollsroyce_textview"
+        style="@style/ActivityLabelStyle"
+        android:textAlignment="gravity" />
+
+    <TextView
+        android:id="@+id/model_rollsroyce_textview"
+        style="@style/ActivityLabelStyle" />
+
+    <TextView
+        android:id="@+id/country_rollsroyce_textview"
+        style="@style/ActivityLabelStyle" />
+
+    <Button
+        android:id="@+id/finish"
+        style="@style/ButtonLabelStyle"
+        android:onClick="finish"
+        android:text="the end!!"/>
+
+</LinearLayout>
+</ScrollView>
